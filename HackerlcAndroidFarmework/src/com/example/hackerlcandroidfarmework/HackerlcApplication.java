@@ -1,5 +1,9 @@
 package com.example.hackerlcandroidfarmework;
 
+import java.util.LinkedList;
+import java.util.List;
+
+import android.app.Activity;
 import android.app.Application;
 
 /**
@@ -17,11 +21,13 @@ public class HackerlcApplication extends Application {
 	/**
 	 * 跳转样式为inOut切入方式
 	 */
-	public static final int JUMP_STYLE=10; 
+	public final int JUMP_STYLE=10; 
 	
-	private HackerlcApplication instance;
+	private List<Activity> activitys= new LinkedList<Activity>();
+	
+	private static HackerlcApplication instance;
 
-	public HackerlcApplication getInstance() {
+	public static HackerlcApplication getInstance() {
 		return instance;
 	}
 
@@ -29,9 +35,25 @@ public class HackerlcApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 		instance=this;
-		
 	}
 	
+	/**
+	 * 添加activity 入 List
+	 * @param activity
+	 */
+	public void addActivity(Activity activity){
+		activitys.add(activity);
+	}
+	
+	/**
+	 * 退出程序
+	 */
+	public void exit(){
+		for(Activity activity:activitys){
+			activity.finish();
+		}
+		System.exit(0);
+	}
 	
 	
 }
