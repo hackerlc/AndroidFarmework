@@ -1,3 +1,8 @@
+/**
+ * The Custom Application
+ * @author hackerlc
+ *
+ */
 package com.example.hackerlcandroidfarmework;
 
 import java.util.LinkedList;
@@ -6,11 +11,6 @@ import java.util.List;
 import android.app.Activity;
 import android.app.Application;
 
-/**
- * The Custom Application
- * @author hackerlc
- *
- */
 public class HackerlcApplication extends Application {
 
 	/**

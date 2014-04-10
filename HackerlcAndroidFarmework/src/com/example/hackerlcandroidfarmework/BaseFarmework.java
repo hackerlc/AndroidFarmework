@@ -1,3 +1,6 @@
+/**
+ * BaseActivity 另一种实现方式
+ */
 package com.example.hackerlcandroidfarmework;
 
 import android.app.Activity;

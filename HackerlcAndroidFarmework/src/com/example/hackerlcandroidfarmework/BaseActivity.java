@@ -1,3 +1,8 @@
+/**
+ * The foundation of all activities
+ * @author hackerlc
+ *
+ */
 package com.example.hackerlcandroidfarmework;
 
 import android.app.Activity;
@@ -7,11 +12,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-/**
- * The foundation of all activities
- * @author hackerlc
- *
- */
 public class BaseActivity extends Activity implements OnClickListener{
 	
 	protected static HackerlcApplication mApplication;

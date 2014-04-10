@@ -1,3 +1,6 @@
+/**
+ * 启动闪屏页面
+ */
 package com.example.hackerlcandroidfarmework.view;
 
 import android.os.Bundle;

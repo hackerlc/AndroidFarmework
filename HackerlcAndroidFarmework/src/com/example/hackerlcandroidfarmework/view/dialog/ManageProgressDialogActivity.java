@@ -1,3 +1,7 @@
+/**
+ * default dialog
+ * @author hackerlc
+ */
 package com.example.hackerlcandroidfarmework.view.dialog;
 
 import android.app.ProgressDialog;
@@ -15,9 +19,6 @@ public class ManageProgressDialogActivity extends BaseActivity {
 
 	private Button defaultBtn, customBtn;
 
-	/**
-	 * default dialog
-	 */
 	private ProgressDialog mpDialog;
 
 	@Override
@@ -26,7 +27,7 @@ public class ManageProgressDialogActivity extends BaseActivity {
 		setContentView(R.layout.activity_manage_progress_dialog);
 		initUI();
 	}
-	
+
 	/**
 	 * 初始化界面
 	 */
@@ -53,10 +54,11 @@ public class ManageProgressDialogActivity extends BaseActivity {
 
 	/**
 	 * show dialog style
+	 * 
 	 * @param num
 	 */
 	private void showStyleDialog(int num) {
-		if(num==0){
+		if (num == 0) {
 			// 默认dialog
 			mpDialog = new ProgressDialog(this);
 			mpDialog.setMessage("Please wait...");
@@ -73,8 +75,20 @@ public class ManageProgressDialogActivity extends BaseActivity {
 					return false;
 				}
 			});
-		}else{
-			
+		} else {
+			mpDialog=new CustomProgressDialog(this);
+			mpDialog.setMessage("Please wait...");
+			mpDialog.show();
+			mpDialog.setOnKeyListener(new OnKeyListener() {
+				
+				@Override
+				public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
+					if(keyCode==KeyEvent.KEYCODE_BACK){
+						mpDialog.dismiss();
+					}
+					return false;
+				}
+			});
 		}
 	}
 

@@ -11,13 +11,15 @@ public final class R {
     public static final class anim {
         public static final int backin=0x7f040000;
         public static final int backout=0x7f040001;
-        public static final int zoomin=0x7f040002;
-        public static final int zoomout=0x7f040003;
+        public static final int custom_progress_round=0x7f040002;
+        public static final int zoomin=0x7f040003;
+        public static final int zoomout=0x7f040004;
     }
     public static final class attr {
     }
     public static final class color {
-        public static final int bg_wellcome=0x7f050000;
+        public static final int bg_wellcome=0x7f050001;
+        public static final int transparent=0x7f050000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -31,18 +33,29 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int progress_1=0x7f020001;
+        public static final int progress_2=0x7f020002;
+        public static final int progress_3=0x7f020003;
+        public static final int progress_4=0x7f020004;
+        public static final int progress_5=0x7f020005;
+        public static final int progress_6=0x7f020006;
+        public static final int progress_7=0x7f020007;
+        public static final int progress_8=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0004;
+        public static final int action_settings=0x7f0a0006;
         public static final int customBtn=0x7f0a0001;
         public static final int defaultBtn=0x7f0a0000;
         public static final int imageView1=0x7f0a0003;
+        public static final int loadingImg=0x7f0a0005;
+        public static final int loadingmsgTv=0x7f0a0004;
         public static final int textView1=0x7f0a0002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_manage_progress_dialog=0x7f030001;
         public static final int activity_wellcome=0x7f030002;
+        public static final int custom_progress_dialog=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -80,11 +93,13 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f080002;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
-        public static final int notitle=0x7f080002;
+        public static final int AppTheme=0x7f080003;
+        public static final int CustomDialog=0x7f080000;
+        public static final int CustomProgressDialog=0x7f080001;
+        public static final int notitle=0x7f080004;
     }
 }
