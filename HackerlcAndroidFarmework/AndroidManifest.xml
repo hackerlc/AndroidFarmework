@@ -32,6 +32,10 @@
             android:name="com.example.hackerlcandroidfarmework.view.MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.view.dialog.ManageProgressDialogActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
     </application>
 
 </manifest>
