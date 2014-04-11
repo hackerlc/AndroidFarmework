@@ -6,6 +6,7 @@ package com.example.hackerlcandroidfarmework.view.dialog;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -43,6 +44,10 @@ public class CustomProgressDialog extends ProgressDialog{
 		loadingmsgTv=(TextView)findViewById(R.id.loadingmsgTv);
 		//The default is empty
 		loadingmsgTv.setText("");
+		
+		//不能自动启动，需要start
+		AnimationDrawable animationDrawable = (AnimationDrawable) loadingImg.getBackground();
+        animationDrawable.start();
 	}
 	
 	/**

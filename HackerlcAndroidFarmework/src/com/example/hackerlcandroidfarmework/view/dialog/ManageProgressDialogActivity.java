@@ -76,7 +76,7 @@ public class ManageProgressDialogActivity extends BaseActivity {
 				}
 			});
 		} else {
-			mpDialog=new CustomProgressDialog(this);
+			mpDialog=new CustomProgressDialog(this,R.style.CustomProgressDialog);
 			mpDialog.setMessage("Please wait...");
 			mpDialog.show();
 			mpDialog.setOnKeyListener(new OnKeyListener() {
