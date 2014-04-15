@@ -1,5 +1,5 @@
 /**
- * default dialog
+ * dialog选择页面，default dialog and custom dialog
  * @author hackerlc
  */
 package com.example.hackerlcandroidfarmework.view.dialog;
