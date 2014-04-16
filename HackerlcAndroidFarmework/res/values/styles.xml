@@ -17,7 +17,7 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-    <style name="notitle">
+    <style name="notitle" parent="android:Theme.DeviceDefault.Light">
 		<item name="android:windowNoTitle">true</item>        
     </style>
     

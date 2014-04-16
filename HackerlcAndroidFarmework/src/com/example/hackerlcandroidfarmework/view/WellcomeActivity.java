@@ -7,7 +7,6 @@ import android.os.Bundle;
 
 import com.example.hackerlcandroidfarmework.BaseActivity;
 import com.example.hackerlcandroidfarmework.R;
-import com.example.hackerlcandroidfarmework.view.dialog.ManageProgressDialogActivity;
 
 public class WellcomeActivity extends BaseActivity{
 	
