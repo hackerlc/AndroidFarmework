@@ -1,5 +1,6 @@
 /**
  * BaseActivity 另一种实现方式
+ * @author YichenZ
  */
 package com.example.hackerlcandroidfarmework;
 

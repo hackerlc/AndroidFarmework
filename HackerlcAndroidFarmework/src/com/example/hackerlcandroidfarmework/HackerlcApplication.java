@@ -1,6 +1,6 @@
 /**
  * The Custom Application
- * @author hackerlc
+ * @author YichenZ
  *
  */
 package com.example.hackerlcandroidfarmework;

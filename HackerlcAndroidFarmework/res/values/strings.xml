@@ -24,4 +24,6 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+    <string name="title_activity_user_guide">UserGuideActivity</string>
+
 </resources>

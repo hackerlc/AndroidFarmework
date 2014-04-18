@@ -1,6 +1,6 @@
 /**
  * 自定义加载dialog
- * @author hackerlc
+ * @author YichenZ
  */
 package com.example.hackerlcandroidfarmework.view.dialog;
 

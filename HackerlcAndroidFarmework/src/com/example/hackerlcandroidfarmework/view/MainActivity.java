@@ -1,3 +1,7 @@
+/**
+ * 主要功能跳转界面
+ * @author YichenZ
+ */
 package com.example.hackerlcandroidfarmework.view;
 
 import android.os.Bundle;
@@ -10,7 +14,7 @@ import com.example.hackerlcandroidfarmework.view.dialog.ManageProgressDialogActi
 
 public class MainActivity extends BaseActivity {
 	
-	private Button listviewLv,dialogBtn;
+	private Button listviewLv,dialogBtn,UserGuideBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +26,9 @@ public class MainActivity extends BaseActivity {
 
 	private void initUI() {
 		dialogBtn=(Button)findViewById(R.id.dialogBtn);
+		UserGuideBtn=(Button)findViewById(R.id.UserGuideBtn);
 		dialogBtn.setOnClickListener(this);
+		UserGuideBtn.setOnClickListener(this);
 	}
 
 	@Override
@@ -35,6 +41,9 @@ public class MainActivity extends BaseActivity {
 			break;
 		case R.id.dialogBtn:
 			goToActivity(this, ManageProgressDialogActivity.class);
+			break;
+		case R.id.UserGuideBtn:
+			goToActivity(this, UserGuideActivity.class);
 			break;
 		default:
 			break;

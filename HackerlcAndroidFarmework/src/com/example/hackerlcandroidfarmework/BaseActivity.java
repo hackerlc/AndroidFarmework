@@ -1,6 +1,6 @@
 /**
  * The foundation of all activities
- * @author hackerlc
+ * @author YichenZ
  *
  */
 package com.example.hackerlcandroidfarmework;
