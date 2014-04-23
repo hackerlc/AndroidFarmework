@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navigation_bar" />
+
+    <com.example.hackerlcandroidfarmework.view.custom.CustomScrollListView
+        android:id="@+id/customScrollListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iamge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pic"
+                    android:scaleType="centerCrop" />
+
+                <include
+                    android:id="@+id/mStaticModelll"
+                    layout="@layout/scroll_classify_list_view" />
+
+                <ListView
+                    android:id="@+id/scrollDataLv"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:background="@color/all_background" />
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/mSuspensionModelll"
+                layout="@layout/scroll_classify_list_view" />
+        </RelativeLayout>
+
+    </com.example.hackerlcandroidfarmework.view.custom.CustomScrollListView>
+
+</LinearLayout>

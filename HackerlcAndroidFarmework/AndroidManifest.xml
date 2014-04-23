@@ -33,12 +33,24 @@
             android:label="@string/title_activity_main" >
         </activity>
         <activity
-            android:name="com.example.hackerlcandroidfarmework.view.dialog.ManageProgressDialogActivity"
+            android:name="com.example.hackerlcandroidfarmework.view.ManageListView"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.view.ManageProgressDialogActivity"
             android:label="@string/title_activity_main" >
         </activity>
         <activity
             android:name="com.example.hackerlcandroidfarmework.view.UserGuideActivity"
             android:label="@string/title_activity_user_guide" >
+        </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.view.ScrollListViewActivity"
+            android:label="@string/title_activity_scroll_list_view" >
+        </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.ScrollListView2InteriorActivity"
+            android:label="@string/title_activity_scroll_list_view2_interior" >
         </activity>
     </application>
 

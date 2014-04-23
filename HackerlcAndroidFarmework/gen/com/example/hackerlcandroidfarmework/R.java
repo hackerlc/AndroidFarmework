@@ -18,6 +18,7 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int all_background=0x7f050002;
         public static final int bg_wellcome=0x7f050001;
         public static final int transparent=0x7f050000;
     }
@@ -33,54 +34,100 @@ public final class R {
     }
     public static final class drawable {
         public static final int dot=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int icon_dot_selected=0x7f020002;
-        public static final int icon_dot_unselected=0x7f020003;
-        public static final int progress_1=0x7f020004;
-        public static final int progress_2=0x7f020005;
-        public static final int progress_3=0x7f020006;
-        public static final int progress_4=0x7f020007;
-        public static final int progress_5=0x7f020008;
-        public static final int progress_6=0x7f020009;
-        public static final int progress_7=0x7f02000a;
-        public static final int progress_8=0x7f02000b;
-        public static final int pull_down_arrow=0x7f02000c;
+        public static final int help1_btn_bg=0x7f020001;
+        public static final int help1_button=0x7f020002;
+        public static final int help1_button_click=0x7f020003;
+        public static final int help1_medicine=0x7f020004;
+        public static final int help1_node=0x7f020005;
+        public static final int help2_btn_bg=0x7f020006;
+        public static final int help2_button=0x7f020007;
+        public static final int help2_button_click=0x7f020008;
+        public static final int help2_node=0x7f020009;
+        public static final int help2_user=0x7f02000a;
+        public static final int help3_btn_bg=0x7f02000b;
+        public static final int help3_button=0x7f02000c;
+        public static final int help3_button_click=0x7f02000d;
+        public static final int help3_heath=0x7f02000e;
+        public static final int help3_node=0x7f02000f;
+        public static final int help4_btn_bg=0x7f020010;
+        public static final int help4_button=0x7f020011;
+        public static final int help4_button_click=0x7f020012;
+        public static final int help4_guide=0x7f020013;
+        public static final int help4_node=0x7f020014;
+        public static final int ic_launcher=0x7f020015;
+        public static final int icon_dot_selected=0x7f020016;
+        public static final int icon_dot_unselected=0x7f020017;
+        public static final int navigation_bar=0x7f020018;
+        public static final int one=0x7f020019;
+        public static final int pic=0x7f02001a;
+        public static final int progress_1=0x7f02001b;
+        public static final int progress_2=0x7f02001c;
+        public static final int progress_3=0x7f02001d;
+        public static final int progress_4=0x7f02001e;
+        public static final int progress_5=0x7f02001f;
+        public static final int progress_6=0x7f020020;
+        public static final int progress_7=0x7f020021;
+        public static final int progress_8=0x7f020022;
+        public static final int pull_down_arrow=0x7f020023;
     }
     public static final class id {
         public static final int UserGuideBtn=0x7f0a0002;
-        public static final int action_settings=0x7f0a0012;
-        public static final int customBtn=0x7f0a0004;
-        public static final int defaultBtn=0x7f0a0003;
+        public static final int action_settings=0x7f0a001f;
+        public static final int customBtn=0x7f0a0006;
+        public static final int customScrollListView=0x7f0a000a;
+        public static final int defaultBtn=0x7f0a0005;
         public static final int dialogBtn=0x7f0a0001;
-        public static final int dotLL=0x7f0a0007;
-        public static final int head_arrowImageView=0x7f0a000e;
-        public static final int head_contentLayout=0x7f0a000d;
-        public static final int head_lastUpdatedTextView=0x7f0a0011;
-        public static final int head_progressBar=0x7f0a000f;
-        public static final int head_tipsTextView=0x7f0a0010;
-        public static final int imageView1=0x7f0a0008;
+        public static final int dotLL=0x7f0a0011;
+        public static final int head_arrowImageView=0x7f0a0017;
+        public static final int head_contentLayout=0x7f0a0016;
+        public static final int head_lastUpdatedTextView=0x7f0a001a;
+        public static final int head_progressBar=0x7f0a0018;
+        public static final int head_tipsTextView=0x7f0a0019;
+        public static final int iamge=0x7f0a000c;
+        public static final int imageView1=0x7f0a0009;
+        public static final int linearLayout1=0x7f0a000b;
         public static final int listviewBtn=0x7f0a0000;
-        public static final int loadingImg=0x7f0a000a;
-        public static final int loadingmsgTv=0x7f0a0009;
-        public static final int pulldown_footer_loading=0x7f0a000c;
-        public static final int pulldown_footer_text=0x7f0a000b;
-        public static final int setHelpViewpager=0x7f0a0006;
-        public static final int textView1=0x7f0a0005;
+        public static final int loadingImg=0x7f0a0013;
+        public static final int loadingmsgTv=0x7f0a0012;
+        public static final int mStaticModelll=0x7f0a000d;
+        public static final int mSuspensionModelll=0x7f0a000f;
+        public static final int parent_layout=0x7f0a0008;
+        public static final int pulldown_footer_loading=0x7f0a0015;
+        public static final int pulldown_footer_text=0x7f0a0014;
+        public static final int scrollDataLv=0x7f0a000e;
+        public static final int scrollListView2InteriorBtn=0x7f0a0004;
+        public static final int scrollListViewBtn=0x7f0a0003;
+        public static final int setHelpJumpButton1=0x7f0a001b;
+        public static final int setHelpJumpButton2=0x7f0a001c;
+        public static final int setHelpJumpButton3=0x7f0a001d;
+        public static final int setHelpJumpButton4=0x7f0a001e;
+        public static final int setHelpViewpager=0x7f0a0010;
+        public static final int textView1=0x7f0a0007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_manage_listview=0x7f030001;
         public static final int activity_manage_progress_dialog=0x7f030002;
-        public static final int activity_user_guide=0x7f030003;
-        public static final int activity_wellcome=0x7f030004;
-        public static final int custom_progress_dialog=0x7f030005;
-        public static final int pull_down_footer=0x7f030006;
-        public static final int pull_down_head=0x7f030007;
-        public static final int pull_down_item=0x7f030008;
+        public static final int activity_scroll_list_view=0x7f030003;
+        public static final int activity_scroll_list_view2_interior=0x7f030004;
+        public static final int activity_user_guide=0x7f030005;
+        public static final int activity_wellcome=0x7f030006;
+        public static final int custom_progress_dialog=0x7f030007;
+        public static final int item_demo=0x7f030008;
+        public static final int pull_down_footer=0x7f030009;
+        public static final int pull_down_head=0x7f03000a;
+        public static final int pull_down_item=0x7f03000b;
+        public static final int scroll_classify_list_view=0x7f03000c;
+        public static final int user_guide1=0x7f03000d;
+        public static final int user_guide2=0x7f03000e;
+        public static final int user_guide3=0x7f03000f;
+        public static final int user_guide4=0x7f030010;
     }
     public static final class menu {
         public static final int main=0x7f090000;
-        public static final int user_guide=0x7f090001;
+        public static final int scroll_list_view=0x7f090001;
+        public static final int scroll_list_view2_interior=0x7f090002;
+        public static final int user_guide=0x7f090003;
     }
     public static final class string {
         public static final int action_settings=0x7f070001;
@@ -92,6 +139,8 @@ public final class R {
          */
         public static final int progress_dialog_title=0x7f070004;
         public static final int title_activity_main=0x7f070003;
+        public static final int title_activity_scroll_list_view=0x7f070008;
+        public static final int title_activity_scroll_list_view2_interior=0x7f070009;
         public static final int title_activity_user_guide=0x7f070007;
     }
     public static final class style {

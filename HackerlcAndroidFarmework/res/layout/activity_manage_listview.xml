@@ -10,17 +10,22 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="53dp"
-        android:layout_marginTop="50dp"
         android:text="ListView" />
+
     <Button
-        android:id="@+id/dialogBtn"
+        android:id="@+id/scrollListViewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/listviewBtn"
+        android:text="ScrollListView" />
+
+    <Button
+        android:id="@+id/scrollListView2InteriorBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="153dp"
-        android:layout_marginTop="50dp"
-        android:text="Dialog" />
-    
+        android:layout_below="@+id/listviewBtn"
+        android:text="ScrollListView2Interior" />
+
 </RelativeLayout>

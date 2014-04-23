@@ -25,5 +25,7 @@
     </style>
 
     <string name="title_activity_user_guide">UserGuideActivity</string>
+    <string name="title_activity_scroll_list_view">ScrollListViewActivity</string>
+    <string name="title_activity_scroll_list_view2_interior">ScrollListView2InteriorActivity</string>
 
 </resources>

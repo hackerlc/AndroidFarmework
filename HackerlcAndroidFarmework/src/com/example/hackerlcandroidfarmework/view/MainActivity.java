@@ -10,11 +10,10 @@ import android.widget.Button;
 
 import com.example.hackerlcandroidfarmework.BaseActivity;
 import com.example.hackerlcandroidfarmework.R;
-import com.example.hackerlcandroidfarmework.view.dialog.ManageProgressDialogActivity;
 
 public class MainActivity extends BaseActivity {
 	
-	private Button listviewLv,dialogBtn,UserGuideBtn;
+	private Button listviewBtn,dialogBtn,UserGuideBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +24,10 @@ public class MainActivity extends BaseActivity {
 	}
 
 	private void initUI() {
+		listviewBtn=(Button)findViewById(R.id.listviewBtn);
 		dialogBtn=(Button)findViewById(R.id.dialogBtn);
 		UserGuideBtn=(Button)findViewById(R.id.UserGuideBtn);
+		listviewBtn.setOnClickListener(this);
 		dialogBtn.setOnClickListener(this);
 		UserGuideBtn.setOnClickListener(this);
 	}
@@ -36,8 +37,7 @@ public class MainActivity extends BaseActivity {
 		super.onClick(v);
 		switch (v.getId()) {
 		case R.id.listviewBtn:
-			//TODO
-			//goToActivity(this, cls)
+			goToActivity(this,ManageListView.class);
 			break;
 		case R.id.dialogBtn:
 			goToActivity(this, ManageProgressDialogActivity.class);
