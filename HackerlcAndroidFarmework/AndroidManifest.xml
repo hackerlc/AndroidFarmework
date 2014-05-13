@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
         android:name="com.example.hackerlcandroidfarmework.HackerlcApplication"
@@ -49,8 +50,20 @@
             android:label="@string/title_activity_scroll_list_view" >
         </activity>
         <activity
-            android:name="com.example.hackerlcandroidfarmework.ScrollListView2InteriorActivity"
+            android:name="com.example.hackerlcandroidfarmework.view.ScrollListView2InteriorActivity"
             android:label="@string/title_activity_scroll_list_view2_interior" >
+        </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.view.UpdateListViewActivity"
+            android:label="@string/title_activity_update_list_view" >
+        </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.view.ListViewDialogActivity"
+            android:label="@string/title_activity_list_view_dialog" >
+        </activity>
+        <activity
+            android:name="com.example.hackerlcandroidfarmework.view.SmsActivity"
+            android:label="@string/title_activity_sms" >
         </activity>
     </application>
 

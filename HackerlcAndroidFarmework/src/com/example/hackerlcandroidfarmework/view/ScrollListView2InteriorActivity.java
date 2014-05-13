@@ -1,4 +1,4 @@
-package com.example.hackerlcandroidfarmework;
+package com.example.hackerlcandroidfarmework.view;
 
 import java.util.ArrayList;
 
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.ViewTreeObserver.OnScrollChangedListener;
 import android.widget.LinearLayout;
 
+import com.example.hackerlcandroidfarmework.BaseActivity;
+import com.example.hackerlcandroidfarmework.R;
+import com.example.hackerlcandroidfarmework.R.id;
+import com.example.hackerlcandroidfarmework.R.layout;
 import com.example.hackerlcandroidfarmework.adapter.ScrollListViewAdapter;
 import com.example.hackerlcandroidfarmework.listener.OnScrollListener;
 import com.example.hackerlcandroidfarmework.view.custom.CustomScrollListView2Interior;

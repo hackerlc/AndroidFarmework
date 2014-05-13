@@ -1,3 +1,7 @@
+/**
+ * 有浮动层的listview数据适配器
+ * @author YichenZ
+ */
 package com.example.hackerlcandroidfarmework.adapter;
 
 import java.util.ArrayList;

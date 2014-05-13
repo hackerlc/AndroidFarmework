@@ -1,3 +1,7 @@
+/**
+ * 需要悬挂方式的自定义view
+ * @author YichenZ
+ */
 package com.example.hackerlcandroidfarmework.view.custom;
 
 import com.example.hackerlcandroidfarmework.listener.OnScrollListener;

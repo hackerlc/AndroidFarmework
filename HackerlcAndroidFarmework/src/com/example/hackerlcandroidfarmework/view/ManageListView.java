@@ -10,7 +10,6 @@ import android.widget.Button;
 
 import com.example.hackerlcandroidfarmework.BaseActivity;
 import com.example.hackerlcandroidfarmework.R;
-import com.example.hackerlcandroidfarmework.ScrollListView2InteriorActivity;
 
 
 

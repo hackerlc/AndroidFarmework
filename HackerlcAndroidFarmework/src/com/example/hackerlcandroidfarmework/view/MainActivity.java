@@ -13,13 +13,14 @@ import com.example.hackerlcandroidfarmework.R;
 
 public class MainActivity extends BaseActivity {
 	
-	private Button listviewBtn,dialogBtn,UserGuideBtn;
-
+	private Button listviewBtn,dialogBtn,UserGuideBtn,SmsBtn;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		mApplication.addActivity(this);
 		setContentView(R.layout.activity_main);
+		
 		initUI();
 	}
 
@@ -27,9 +28,11 @@ public class MainActivity extends BaseActivity {
 		listviewBtn=(Button)findViewById(R.id.listviewBtn);
 		dialogBtn=(Button)findViewById(R.id.dialogBtn);
 		UserGuideBtn=(Button)findViewById(R.id.UserGuideBtn);
+		SmsBtn=(Button)findViewById(R.id.SmsBtn);
 		listviewBtn.setOnClickListener(this);
 		dialogBtn.setOnClickListener(this);
 		UserGuideBtn.setOnClickListener(this);
+		SmsBtn.setOnClickListener(this);
 	}
 
 	@Override
@@ -44,6 +47,9 @@ public class MainActivity extends BaseActivity {
 			break;
 		case R.id.UserGuideBtn:
 			goToActivity(this, UserGuideActivity.class);
+			break;
+		case R.id.SmsBtn:
+			goToActivity(this, SmsActivity.class);
 			break;
 		default:
 			break;

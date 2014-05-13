@@ -27,5 +27,13 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/dialogBtn"
         android:text="TheUserGuide" />
+
+    <Button
+        android:id="@+id/SmsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/UserGuideBtn"
+        android:text="Sms" />
     
 </RelativeLayout>
